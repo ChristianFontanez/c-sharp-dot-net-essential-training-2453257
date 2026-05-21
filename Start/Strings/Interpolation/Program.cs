@@ -17,4 +17,5 @@ Console.WriteLine($"The values are {a}, {b}, {c} ");
 Console.WriteLine($"(a + b)/b is {(a + b)/ b}");
 
 // TODO: Complex objects can be embedded in strings this way as well
-
+DateTime now = DateTime.Now;
+Console.WriteLine($"Today is {now}");

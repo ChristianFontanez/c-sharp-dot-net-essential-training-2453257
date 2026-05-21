@@ -24,16 +24,16 @@ string[] strs = {"one", "two", "three", "four"};
 //}
 
 
-// TODO: String Concatenation         
-//string outstr;
+//TODO: String Concatenation         
+string outstr;
 //outstr = String.Concat(strs);
 
 
 // TODO: Joining strings together with Join
-//outstr = String.Join('.', strs);
-//Console.WriteLine(outstr);
-//outstr = String.Join("---", strs);
-//Console.WriteLine(outstr);
+outstr = String.Join('.', strs);
+Console.WriteLine(outstr);
+outstr = String.Join("---", strs);
+Console.WriteLine(outstr);
 
 
 // TODO: String Comparison
@@ -54,5 +54,5 @@ string[] strs = {"one", "two", "three", "four"};
 
 
 // TODO: Replacing content
-string outstr = str1.Replace("fox", "cat");
-Console.WriteLine($"{outstr}");
+//string outstr = str1.Replace("fox", "cat");
+//Console.WriteLine($"{outstr}");
